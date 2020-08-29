@@ -33,9 +33,9 @@ finally
 				echo 'Job status - ' + ${JobStatus}
 	}
 }
-#def Email(mail_body){
-#    mail body: mail_body,
-#        from: 'atan.chatterjee@gmail.com',
-#        subject: 'Testing Jenkins Job Status',
-#        to: 'chatterji.atanu@gmail.com'
-#}
+//def Email(mail_body){
+//    mail body: mail_body,
+//        from: 'atan.chatterjee@gmail.com',
+//        subject: 'Testing Jenkins Job Status',
+//        to: 'chatterji.atanu@gmail.com'
+//}
