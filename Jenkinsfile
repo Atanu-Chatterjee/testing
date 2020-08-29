@@ -29,6 +29,6 @@ catch(error)
 finally
 	{
 				 
-				echo 'Job status - ' + ${JobStatus}
+				echo "Job status -  + ${JobStatus}"
 	}
 }
