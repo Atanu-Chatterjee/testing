@@ -1,6 +1,6 @@
 node('Windows') {
 def JobStatus = "Job Started"
-def error = ""
+def JobError = ""
 echo "${JobStatus}"
 try {   
 	            stage("Stage 1") 
