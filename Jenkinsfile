@@ -1,3 +1,4 @@
+#!groovy
 node('Windows') {
 def JobStatus = "Job Started"
 def JobError = ""
