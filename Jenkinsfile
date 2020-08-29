@@ -1,5 +1,9 @@
 #!groovy
 node('master') {
+
+echo "Current workspace is ${env.WORKSPACE}"
+echo "Current workspace is $WORKSPACE"
+
 def JobStatus = "Job Started"
 def JobError = ""
 echo "${JobStatus}"
