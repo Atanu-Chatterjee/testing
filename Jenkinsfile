@@ -1,5 +1,5 @@
 #!groovy
-node('Windows') {
+node('master') {
 def JobStatus = "Job Started"
 def JobError = ""
 echo "${JobStatus}"
